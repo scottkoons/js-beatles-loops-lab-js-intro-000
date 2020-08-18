@@ -13,13 +13,6 @@ function theBeatlesPlay(name, play) {
 };
 
 //------- Lab 2 -------
-// const facts = [
-//     "He was the last Beatle to learn to drive",
-//     "He was never a vegetarian",
-//     "He was a choir boy and boy scout",
-//     "He hated the sound of his own voice"
-// ];
-
 
 function johnLennonFacts(arr) {
     let i = 0;
@@ -29,4 +22,16 @@ function johnLennonFacts(arr) {
         i++;
     };
     return newFacts;
+};
+
+//------- Lab 3 -------
+function iLoveTheBeatles(num) {
+    let arr = [];
+    // let i = 0;
+    do {
+        arr.push(`I love the Beatles!`);
+        num++;
+    }
+    while (num < 15);
+    return arr;
 };
